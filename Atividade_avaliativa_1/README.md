@@ -13,7 +13,7 @@
 | [Exercicio_9_ordenacao.c](Exercicio_9_ordenacao.c) | Função de ordenação de três variáveis usando passagem por referência. |
 | [Exercicio_10_maiorNota.c](Exercicio_10_maiorNota.c) | Alocação dinâmica de memória para alunos e busca da maior nota com ponteiros. |
 
-##  Dicas Úteis
-* **Alocação Dinâmica:** No Exercício 10, certifique-se de digitar um número inteiro válido para a quantidade de alunos para que a memória seja alocada corretamente.
-* **Busca de Livros:** No Exercício 7, a busca diferencia maiúsculas de minúsculas (Case Sensitive). Digite exatamente como cadastrou!
-* **Ponteiros:** Os exercícios 8, 9 e 10 exploram o acesso direto à memória. Caso o programa feche inesperadamente, verifique se todos os endereços foram passados corretamente com o operador `&`.
+## Sugestões úteis
+* **Alocação Dinâmica:** No Exercício 10, garanta que você insira um número inteiro válido para a quantidade de alunos, a fim de que a memória seja alocada de maneira adequada.
+* **Busca de Livros:** No Exercício 7, a busca é sensível a maiúsculas e minúsculas (Case Sensitive). Insira exatamente como foi registrado!
+* **Ponteiros:** Os exercícios 8, 9 e 10 abordam o acesso direto à memória. Se o programa fechar de forma inesperada, confira se todos os endereços foram transmitidos corretamente utilizando o operador `&`.
