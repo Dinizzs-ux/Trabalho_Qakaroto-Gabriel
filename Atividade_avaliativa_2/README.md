@@ -1,36 +1,23 @@
-# 📚 Desafios de Estrutura de Dados: Pilhas Dinâmicas em C
+# 📚 Desafios de Estrutura de Dados: Pilhas Dinâmicas
 
-Bem-vindo(a) ao repositório! Este projeto contém a implementação de duas atividades práticas focadas em **Estruturas de Dados**, mais especificamente na construção e manipulação de **Pilhas Dinâmicas (Stacks)** utilizando a linguagem C.
+Este repositório contém a implementação de desafios práticos focados em **Pilhas Dinâmicas** e manipulação de strings na linguagem C, desenvolvidos para a Atividade Avaliativa 2.
 
-O maior desafio (e a parte mais legal)? **Tudo foi feito "na unha"**. Nenhuma biblioteca de estrutura de dados pronta ou funções nativas de manipulação de strings foram utilizadas. Todo o gerenciamento de memória e lógica de ponteiros foi construído do zero. 🚀
+## 📂 Arquivos do Projeto
 
----
+| Arquivo | Descrição |
+| :--- | :--- |
+| `desafio1_balanço.c` | Validador de expressões: verifica se `()`, `{}`, `[]` estão balanceados usando pilha dinâmica. |
+| `desafio2_inversao.c` | Inversor de strings: inverte uma frase utilizando a lógica LIFO (pilha) sem vetores auxiliares. |
 
-## 🎯 O que você vai encontrar aqui?
+## 💡 Sugestões úteis
 
-### Desafio 1: O Validador de Expressões ⚖️
-Um programa que recebe uma expressão matemática ou de código e verifica se os parênteses `()`, chaves `{}` e colchetes `[]` estão perfeitamente balanceados.
-* **Como funciona?** Ao ler a string, o programa "empilha" (push) todo símbolo de abertura. Quando encontra um símbolo de fechamento, ele "desempilha" (pop) o topo e verifica se eles formam um par válido. Se a pilha terminar vazia, a expressão está correta!
+* **Pilha Dinâmica:** Os exercícios utilizam `struct` e ponteiros para alocação em tempo de execução. Certifique-se de que o sistema possui memória disponível para as operações de `push`.
+* **Gestão de Memória:** Como trabalhamos com alocação dinâmica, cada nó criado com `malloc` é liberado com `free` imediatamente após o `pop`, evitando vazamentos de memória (*memory leaks*).
+* **Manipulação de Strings:** No Desafio 2, a inversão ocorre no próprio endereço da string original. Tenha cuidado ao manipular o ponteiro para não perder a referência do final da string (`\0`).
 
-### Desafio 2: Inversor de Strings 🔄
-Um programa simples que recebe uma frase e a devolve de trás para frente.
-* **A regra de ouro:** Não podíamos usar vetores auxiliares ou funções como `strrev`. 
-* **Como funciona?** Aproveitamos a natureza **LIFO** (*Last In, First Out* - O último a entrar é o primeiro a sair) da pilha. Empilhamos cada letra da palavra original e, ao desempilhar, sobrescrevemos a própria string, invertendo-a magicamente com economia de memória.
+## 🛠️ Tecnologias e Conceitos
 
----
-
-## 🛠️ Tecnologias e Conceitos Utilizados
-
-* **Linguagem C** * **Alocação Dinâmica de Memória** (`malloc` e `free`)
-* **Ponteiros** (Manipulação direta de endereços de memória)
-* **Estruturas (Structs)** (Criação de nós e controle da pilha)
-* **Lógica LIFO** (Pilha)
-
----
-
-## 💻 Como rodar na sua máquina
-
-Para testar os códigos, você precisará de um compilador C instalado (como o GCC).
-
-**1. Clone este repositório:**
-```bash
+* **Linguagem C**: Foco em lógica de baixo nível.
+* **Estrutura de Dados**: Implementação manual de Pilha (Stack).
+* **Alocação Dinâmica**: Uso intensivo de ponteiros e gestão de memória.
+* **Lógica LIFO**: (*Last In, First Out*) como conceito central de processamento.
