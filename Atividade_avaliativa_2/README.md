@@ -2,8 +2,8 @@
 
 | Arquivo | Descrição |
 | :--- | :--- |
-| `desafio1_balanço.c` | Validador de expressões: verifica se `()`, `{}`, `[]` estão balanceados usando pilha dinâmica. |
-| `desafio2_inversao.c` | Inversor de strings: inverte uma frase utilizando a lógica LIFO (pilha) sem vetores auxiliares. |
+| [Inversor de Strings.c](Inversor_de_Strings.c) | Validador de expressões: verifica se `()`, `{}`, `[]` estão balanceados usando pilha dinâmica. |
+| [Validador de Expressões.c](Validador_de_Expressões.c) | Inversor de strings: inverte uma frase utilizando a lógica LIFO (pilha) sem vetores auxiliares. |
 
 ## Dicas úteis
 
