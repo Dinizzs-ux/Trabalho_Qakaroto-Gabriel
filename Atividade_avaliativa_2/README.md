@@ -1,8 +1,4 @@
-# 📚 Desafios de Estrutura de Dados: Pilhas Dinâmicas
-
-Este repositório contém a implementação de desafios práticos focados em **Pilhas Dinâmicas** e manipulação de strings na linguagem C, desenvolvidos para a Atividade Avaliativa 2.
-
-## 📂 Arquivos do Projeto
+## 📂 Arquivos da Lista de Exercícios
 
 | Arquivo | Descrição |
 | :--- | :--- |
