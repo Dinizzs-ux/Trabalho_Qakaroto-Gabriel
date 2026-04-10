@@ -2,8 +2,8 @@
 
 | Arquivo | Descrição |
 | :--- | :--- |
-| [simulacao_atendimento.c](simulacao_atendimento.c) | Simula uma fila de clientes, calculando o tempo de espera acumulado de cada um. |
-| [fila_impressao.c](fila_impressao.c) | Sistema de impressão que organiza documentos por nível de prioridade e ordem de chegada. |
+| `simulacao_atendimento.c` | Simula uma fila de clientes, calculando o tempo de espera acumulado de cada um. |
+| `fila_impressao.c` | Sistema de impressão que organiza documentos por nível de prioridade e ordem de chegada. |
 
 ## Sugestões úteis
 
